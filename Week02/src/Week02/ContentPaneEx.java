@@ -6,8 +6,7 @@ import javax.swing.*;
 public class ContentPaneEx extends JFrame{
 	public ContentPaneEx() {
 		setTitle("ContentPane과 JFrame");
-		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);		// 창을 닫을 때 어떻게 동작할 건지에 대한
-															// 기본 값을 설정해줌.
+		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);		// 창을 닫을 때 어떻게 동작할 건지에 대한 기본 값을 설정해줌.
 		
 		Container cp = getContentPane();
 		
