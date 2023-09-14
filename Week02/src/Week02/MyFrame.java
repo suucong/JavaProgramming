@@ -5,7 +5,7 @@ import javax.swing.*;
 public class MyFrame extends JFrame{
 	public MyFrame() {
 		setTitle("500*500 스윙 프레임 만들기");
-		setSize(100, 50);	// 프레임 크기(처음의 사이즈 지정 -> 늘리고 줄이기 가능)
+		setSize(100, 50);	// 프레임 크기(처음의 사이즈 지정 -> 늘리기, 줄이기 가능)
 		setVisible(true);	// 프레임 출력
 	}
 	
