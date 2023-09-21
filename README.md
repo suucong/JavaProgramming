@@ -25,13 +25,18 @@ import java.awt.*;
     ```
 ### BorderLayoutEx  
 <img width="412" alt="BorderLayout" src="https://github.com/suucong/JavaProgramming/assets/109707230/fc5fc93e-9d4f-43ef-b2e3-7eb02c3afbe9">
+
 ### FlowLayoutEx  
 <img width="412" alt="FlowLayout" src="https://github.com/suucong/JavaProgramming/assets/109707230/d0119d72-c1aa-453c-b82a-ab1c418f33d5">
+
 ### GridLayoutEx  
 <img width="412" alt="gridLayout" src="https://github.com/suucong/JavaProgramming/assets/109707230/f757b830-448b-4afd-bf87-04665c86336e">
+
 ### NullContainerEx  
 <img width="412" alt="nullContainer" src="https://github.com/suucong/JavaProgramming/assets/109707230/56bc6f59-7d2a-4842-9bd6-1bdf1fb0f166">
+
 ### Text01Ex  
 <img width="412" alt="Test01Ex" src="https://github.com/suucong/JavaProgramming/assets/109707230/0277bc6e-4390-4a8e-bb4f-728fb86c39e4">
+
 ### Test02Ex  
 <img width="412" alt="Test02Ex" src="https://github.com/suucong/JavaProgramming/assets/109707230/39afac22-41c5-4d6c-8b54-78beb1d064c3">
