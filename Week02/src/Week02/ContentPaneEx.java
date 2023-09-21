@@ -11,12 +11,13 @@ public class ContentPaneEx extends JFrame{
 		Container cp = getContentPane();
 		
 		cp.setBackground(Color.CYAN);	// 컨텐트팬의 배경색 설정
-		cp.setLayout(new FlowLayout());	// 컨텐트팬 내 컴포넌트들의 배치방법 설정(컴포넌트 관리자 지정)
+		// BorderLayout은 JFrame의 Default 배치관리자.
+		cp.setLayout(new BorderLayout());	// 컨텐트팬 내 컴포넌트들의 배치방법 설정(컴포넌트 관리자 지정) 
 		
 		// JButton jb = new JButton("ok");
 		// cp.add(jb);
-		cp.add(new JButton("OK"));
-		cp.add(new JButton("Cancel"));
+		cp.add(new JButton("OK"), BorderLayout.EAST);
+		cp.add(new JButton("Cancel"), BorderLayout.WEST);
 		cp.add(new JButton("Ignore"));
 		
 		setSize(400, 150);
