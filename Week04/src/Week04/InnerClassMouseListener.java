@@ -33,12 +33,15 @@ public class InnerClassMouseListener extends JFrame {
 
     public class MyMouseListener implements MouseListener {
         public void mouseClicked(MouseEvent e) {
-            if (btn.getText().equals("Action"))
-                btn.setText("액션");
-            else
-                btn.setText("Action");
-
-            setTitle(btn.getText());
+        	JButton b = (JButton)e.getSource();	
+        	
+        	if(b.getText().equals("Action"))
+				b.setText("액션");
+			else
+				b.setText("Action");
+			
+			// InnerClassListener.this.setTitle(b.getText()
+			setTitle(b.getText());	// 프레임 타이틀에 버튼 문자열을 출력한다.
         }
 
         // MouseListener 인터페이스의 다른 메서드들.
