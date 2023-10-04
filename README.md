@@ -1,9 +1,9 @@
 # JavaProgramming
 - Java 프로그래밍 응용 수업 실습 코드입니다.
------------------------------
+
 ## Week02
 - GUI Basics - awt, swing
--------------------------------
+
 ## Week03
 GUI - 컨테이너와 배치관리자
 - 컨테이너(ex. JFrame, JPannel ...)마다 하나의 배치관리자(ex. FlowLayout, BorderLayout ...)가 존재
