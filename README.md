@@ -23,8 +23,13 @@ import java.awt.*;
     ```
     container.setLayout(null);
     ```
-## Week4
+## Week04
 GUI - 이벤트 기반 프로그래밍, 이벤트 객체, 이벤트 리스너
 - 기억해야할 점(이벤트의 처리 과정): 이벤트 분배 스레드가 JVM으로부터 이벤트 발생을 통지 받아 이벤트 소스(=컴포넌트)와 종류를 결정하여 적절한 이벤트객체를 생성하고, 이벤트리스너가 호출되어 이벤트를 처리한다.
-- 그중에서도 keyEvent와 KeyListener, MouseEvent와 MouseListener를 사용해보았다.
 - 추가적으로 implements와 extends의 차이에 대해서도 알아보았다.(정리한 것: https://suucong.tistory.com/30)
+
+## Week05
+GUI_이벤트 - KeyEvent와 KeyListener / MouseEvent와 MouseListener
+- 위의 이벤트객체와 리스너를 이용하여 여러가지 실습 코드를 구현해보았다.
+- KeyEvent는 다른 이벤트 객체와 다른 점이 있는데 focus이다. 포커스를 가진 컴포넌트에만 키 입력 독점권이 주어진다. -> 현재 포커스를 가진 컴포넌트에만 key 이벤트가 전달된다.
+- MouseEvent가 가질 수 있는 이벤트 리스너는 3개이고, 발생 시킬 수 있는 이벤트는 총 8가지 이다.
