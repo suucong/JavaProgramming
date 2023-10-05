@@ -27,6 +27,8 @@ public class Prac01 extends JFrame {
 	public class MyMouseListener implements MouseListener {
 		int X;
 		int Y;
+		
+		// 이벤트 소스는 컨텐트 팬.
 		public void mousePressed(MouseEvent e) {
 			X = e.getX();
 			Y = e.getY();
