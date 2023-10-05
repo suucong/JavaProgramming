@@ -23,3 +23,8 @@ import java.awt.*;
     ```
     container.setLayout(null);
     ```
+## Week4
+GUI - 이벤트 기반 프로그래밍, 이벤트 객체, 이벤트 리스너
+- 기억해야할 점: 이벤트 소스(=컴포넌트)가 이벤트객체를 발생시키고, 이벤트리스너가 이벤트를 처리한다.
+- 그중에서도 keyEvent와 KeyListener, MouseEvent와 MouseListener를 사용해보았다.
+- 추가적으로 implements와 extends의 차이에 대해서도 알아보았다.(정리한 것: https://suucong.tistory.com/30)
