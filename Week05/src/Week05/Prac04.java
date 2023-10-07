@@ -12,7 +12,7 @@ public class Prac04 extends JFrame {
 	int clickNum = 0;
 	
 	public Prac04() {
-		setTitle("Prac04");
+		setTitle("GamblingGame");
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		
 		Container c = getContentPane();
