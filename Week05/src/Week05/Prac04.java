@@ -13,7 +13,7 @@ public class Prac04 extends JFrame {
 	
 	public Prac04() {
 		setTitle("GamblingGame");
-		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
 		
 		Container c = getContentPane();
 		c.setLayout(new FlowLayout(FlowLayout.CENTER, 50, 40));
@@ -49,6 +49,7 @@ public class Prac04 extends JFrame {
 	}
 	
 	public class MyKeyListener extends KeyAdapter {
+		@Override
 		public void keyPressed(KeyEvent e) {
 			Random random = new Random();
 			int keyCode = e.getKeyCode();
