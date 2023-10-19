@@ -54,3 +54,5 @@ GUI_이벤트 - KeyEvent와 KeyListener / MouseEvent와 MouseListener
     - 선택(selected)와 해제(deselected)의 두 상태만 가지는 체크 버튼
     - 체크박스 문자열과 이미지로 구성
     - Item Event가 체크박스나 라디오 버튼의 선택 상태가 바뀔 때 발생하는 이벤트이다.
+## Week06
+ButtonGroup을 이용한 JRadioButton, JTextField, JTextArea와 JScrollPane, JList<E>, JSlider
