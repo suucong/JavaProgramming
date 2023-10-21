@@ -16,7 +16,7 @@ public class JRadioButtonItemEventPrac extends JFrame {
 	
 	public JRadioButtonItemEventPrac() {
 		setTitle("라디오버튼 ItemEvent 예제");
-		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
 		
 		Container c = getContentPane();
 		c.setLayout(new BorderLayout());
@@ -33,7 +33,7 @@ public class JRadioButtonItemEventPrac extends JFrame {
 		    radio[i].addItemListener(new MyItemListener());
 		}
 		
-		radio[2].setSelected(true);
+//		radio[2].setSelected(true);
 		
 		c.add(radioPanel, BorderLayout.NORTH);
 		c.add(imageLabel, BorderLayout.CENTER);
@@ -45,9 +45,18 @@ public class JRadioButtonItemEventPrac extends JFrame {
 	
 	class MyItemListener implements ItemListener {
 		public void itemStateChanged(ItemEvent e) {
-			if(radio[0].isSelected())	imageLabel.setIcon(image[0]);
-			else if(radio[1].isSelected())	imageLabel.setIcon(image[1]);
-			else	imageLabel.setIcon(image[2]);
+			if(radio[0].isSelected()) {
+				imageLabel.setIcon(image[0]);
+				System.out.print(0);
+			}
+			if(radio[1].isSelected()) {
+				imageLabel.setIcon(image[1]);
+				System.out.print(1);
+			}
+			if(radio[2].isSelected()) {
+				imageLabel.setIcon(image[2]);
+				System.out.print(2);
+			}
 		}
 	}
 
