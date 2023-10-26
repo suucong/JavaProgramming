@@ -33,7 +33,7 @@ public class JRadioButtonItemEventPrac extends JFrame {
 		    radio[i].addItemListener(new MyItemListener());
 		}
 		
-//		radio[2].setSelected(true);
+		radio[1].setSelected(true);
 		
 		c.add(radioPanel, BorderLayout.NORTH);
 		c.add(imageLabel, BorderLayout.CENTER);
