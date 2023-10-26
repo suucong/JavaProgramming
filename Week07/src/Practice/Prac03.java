@@ -37,7 +37,7 @@ public class Prac03 extends JFrame {
 		Font newFont = new Font("SansSerif", Font.PLAIN, fontSize); // 폰트 설정
 		colorLabel.setFont(newFont); // JLabel의 폰트를 변경한 폰트로 설정
 		
-		/* ----------------------------- 색상 슬라이더 설정 -------------------------------- */
+/* ----------------------------- 색상 슬라이더 설정 -------------------------------- */
 		// JLabel 생성해 값 할당
 		RGB[0] = new JLabel("R");
 		RGB[1] = new JLabel("G");
