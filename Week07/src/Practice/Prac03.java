@@ -122,7 +122,7 @@ public class Prac03 extends JFrame {
 	class MyChangeListener implements ChangeListener {
 		@Override
 		public void stateChanged(ChangeEvent e) {
-			// 만약 1번 슬라이더가 안보이도록 설정되어있다면, 0번 슬라이더로 크기조절
+			// 만약 0번슬라이더의 Text가 "R"이라면,슬라이더로 색상값 조절
 			if (RGB[0].getText() == "R") {
 				int r = sl[0].getValue();
 				int g = sl[1].getValue();

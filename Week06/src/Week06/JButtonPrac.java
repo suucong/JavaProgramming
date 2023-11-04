@@ -32,8 +32,6 @@ public class JButtonPrac extends JFrame {
 		
 		c.setFocusable(true);
 		c.requestFocus();
-		
-		
 	}
 	
 	public static void main(String[] args) {
