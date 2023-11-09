@@ -1,13 +1,14 @@
 package Practice;
 
-import java.util.Vector;
+import java.util.ArrayList;
+import java.util.List;
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
 
 public class Prac03 extends JFrame {
 	private MyPanel panel = new MyPanel();
-	public Vector<Point> points = new Vector<Point>();	// vector 동적 배열 생성
+	private List<Point> points = new ArrayList<>();	// vector 동적 배열 생성
 	private int pointNum = 0;
 
 	public Prac03() {
@@ -35,6 +36,7 @@ public class Prac03 extends JFrame {
 	}
 	
 	class MyPanel extends JPanel{
+		@Override
 		public void paintComponent(Graphics g) {
 			super.paintComponent(g);
 			

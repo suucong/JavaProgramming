@@ -6,7 +6,8 @@ import java.awt.event.*;
 
 public class Prac02 extends JFrame {
 	private MyPanel panel = new MyPanel();
-	private int cursorX = 200, cursorY = 100;
+	private int cursorX = 200;
+	private int cursorY = 100;
 	
 	public Prac02() {
 		setTitle("과제2");
